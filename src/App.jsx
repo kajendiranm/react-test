@@ -8,20 +8,20 @@ import About from "./components/About";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/react-test',
     element: <RootLayout />,
     children: [
       { index: true, element: <Home /> },
       {
-        path: '/news',
+        path: 'news',
         element: <News />
       },
       {
-        path: '/contact',
+        path: 'contact',
         element: <Contact />
       },
       {
-        path: '/about',
+        path: 'about',
         element: <About />
       }
     ]
